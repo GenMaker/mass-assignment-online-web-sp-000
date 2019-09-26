@@ -3,9 +3,9 @@ class Person
 :weight, :handed, :complexion, :t_shirt_size,
 :wrist_size, :glove_size, :pant_length, :pant_width
 
-  
+
   #that accepts a hash upon initialization
   def initialize(attributes)
-    attribuites.each. {|key,value| self.send(("#{key=}"),value)}
+    attribuites.each do {|key,value| self.send(("#{key=}"),value)}
   end
 end
