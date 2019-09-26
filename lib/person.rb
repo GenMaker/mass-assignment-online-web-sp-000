@@ -1,4 +1,5 @@
 class Person
+  attr_accessor = 
 
   #that accepts a hash upon initialization
   def initialize(attributes)
